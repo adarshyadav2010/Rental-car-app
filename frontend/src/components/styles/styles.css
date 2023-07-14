@@ -1,0 +1,496 @@
+/* Nav bar styling */
+/* homeNav */
+#page-nav{
+    height: 12vh;
+}
+
+.nav-item{
+    height: 100%;
+}
+
+.logo-img{
+    max-width: 30%;
+    height: 80%;
+    padding: 10px;
+}
+
+/* home page design */
+
+.home-container{
+    height: 100vh;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden;
+}
+
+.page-design{
+    background-image: url('../images/backgroundhome.jpg');
+    filter:saturate(40%);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+    
+}
+
+.page-content{
+    padding: 80px;
+}
+
+h2{
+    color: honeydew;
+}
+
+.click-control{
+    display: flex;
+    justify-content: space-around;
+}
+
+.controls{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: large;
+    padding: 10px;
+}
+
+.card-div{
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+}
+
+.form-card{
+    padding: 10px;
+}
+
+.input-field{
+    width: 85%;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.login-signup{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+
+.save-details{
+    background-color: #007bff;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+/* adminpagestyle */
+
+/* admin nav */
+
+#admin-nav{
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2)
+}
+.admin-img {
+    height: 100%;
+    width: 30%;
+}
+
+.admin-container{
+    height: 100vh;
+}
+
+.admin-page{
+    padding: 0px 50px 0px 50px;
+}
+
+.admin-logout{
+    margin: 20px;
+}
+
+.log-out{
+    padding: 5px;
+    background-color: rgb(212, 210, 210);
+    color: black;
+    font-weight: bold;
+}
+
+
+/* user page */
+
+/* user nav */
+
+#user-nav{
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2)
+}
+.user-img {
+    height: 100%;
+    width: 30%;
+}
+
+.user-page{
+    padding: 0px 50px 0px 50px;
+}
+
+.user-funcs{
+    display: flex;
+}
+
+.user-logout{
+    margin: 20px;
+}
+
+.text{
+    text-decoration: none;
+}
+
+.user-card-div{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+.input-field1{
+    width: 85%;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.check-pos{
+    float: right;
+}
+
+.check-btn{
+    border-radius: 40px;
+    margin-top: 15px;
+    padding: 10px 20px;
+}
+
+.quote-style{
+    color: rgb(124, 123, 123);
+    font-family: cursive;
+    font-size: medium;
+}
+
+/* user header */
+
+#header-user{
+    height: 10vh;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2)
+}
+
+.header-cls{
+    display: flex;
+    padding: 20px 50px;
+    
+}
+
+.modify-btn{
+    border-radius: 40px;
+    padding: 5px 20px;
+}
+
+li{
+    list-style: none;
+    padding: 0px 25px;
+}
+
+/* car adding */
+
+/* .car-details-cont{
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: flex-start;
+    padding-bottom: 30px;
+}
+
+.admin-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.car-container{
+    max-height:250px ;
+    width: 300px;
+    box-shadow: 0px 2px 3px black;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.img-container{
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(176, 172, 172);
+    border-radius: 15px  15px 0px  0px;
+}
+
+#car-img{
+    height: 150px;
+    width:300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.person-nos{
+    color: rgb(174, 164, 164);
+    padding-left: 5px;
+    /* border-bottom-color: gray; */
+    /* border-width: 1px solid gray;
+    border-bottom:gray; */
+}
+
+/* Add car */
+
+.form-input{
+    width: 50%;
+    margin:5px 0px;
+    padding: 10px;
+}
+
+.addcar-page{
+    padding: 0px 50px 0px 50px;
+    
+}
+
+.data-form-flex{
+    display: flex;
+    gap:50px;
+    width: 100%;
+    
+}
+
+.input-gap-bottom{
+    margin-bottom: 10px;
+}
+
+.addcar-container{
+    height: 100vh;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden;
+}
+
+.car-details1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px;
+}
+
+.card-2nd{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+}
+
+.distance-det{
+    color: rgb(77, 219, 77);
+}
+
+.date-details{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px;
+    height: 30px;
+}
+
+.form-input1{
+    width: 35%;
+    margin:5px 0px;
+    padding: 10px;
+}
+
+#form-left{
+    width: 50%;
+    border-right: 2px solid gray;
+}
+
+.form-main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#form-right{
+    margin-left: 40px;
+}
+
+#imgs-add-car-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 130px;
+    /* box-shadow: 3px 3px 10px black; */
+}
+.img-sort-box{
+    height: 100px;
+    width: 90px;
+    background-color: rgb(180, 171, 171);
+}
+
+#text-area-description{
+    width: 90%;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 10px ; 
+    font-size: larger;
+    font-weight: bolder;  ;
+}
+
+.date-input,#per-km,.select-things{
+    width: 180px;
+    height: 30px;
+    margin-top: 10PX;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.car-detail-description{
+    height: 100px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+input:focus, textarea:focus{
+    border-color: blue;
+    box-shadow: 3px 3px 10px blue;
+    outline: rgb(87, 87, 219);
+}
+
+#preview-img-of-the-file{
+    height: 100%;
+}
+
+#image-add-in-add-user-form{
+    padding-bottom: 20px;
+  }
+
+  #btn-cancel-add-detail-container{
+    display: flex;
+    width: 100%;
+    margin-left: 8%; 
+    justify-content: space-between;
+    margin-right: 8%;
+}
+#btn-Add-add-detail-ans-save{
+    height: 40px;
+    width: 150px;
+    border-radius: 25px;
+    font-size: large;
+    font-weight: bold;
+    background-color:blue;
+    border-color:aliceblue;
+    color:aliceblue;
+    margin-right:20% ;
+   
+}
+
+.btn-Add-add-detail-ans-save{
+    height: 45px;
+    width: 150px;
+    border-radius: 25px;
+    font-size: large;
+    font-weight: bold;
+    background-color:blue;
+    border-color:aliceblue;
+    color:aliceblue; 
+}
+
+#delete-btn-for-edit-page{
+    margin-left: 550px;
+    background-color: red;
+}
+.save-btn-details{
+    margin-right: 10%;
+}
+
+#btn-cancel-add-detail{
+    height: 40px;
+    width: 150px;
+    border-radius: 25px;
+    font-size: large;
+    font-weight: bold;
+    background-color: aliceblue;
+    border-color: blue;
+    color: blue;
+}
+
+/* user page */
+
+.user-car-container{
+    max-height:250px ;
+    max-width: 300px;
+    box-shadow: 0px 2px 3px black;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.fare{
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.booknow{
+    float: right;
+    height: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 30px;
+
+}
+
+.user-date-details{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, white 50%, blue 50%);
+    border-bottom-right-radius: 9px;
+}
+
+.user-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: flex-start;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+
+#display-message-on-the-admin-pag-for-the-err{
+    text-align: center;
+    border: 2px solid red;
+    width: 30%;
+    margin-left: 35%;
+    font-weight: bold;
+    border-radius: 5px;
+    color: red;
+}
+#button-ok-for-th-delee-things{
+    border: 2px solid red;
+    margin-left:20px;
+    background-color: red;
+    padding: 1px;
+    color: aliceblue;
+}
